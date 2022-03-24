@@ -292,6 +292,7 @@ margin-right: 10px;
     background-image: url("../img/runners.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .site-footer-container {
     padding-top: 240px;
