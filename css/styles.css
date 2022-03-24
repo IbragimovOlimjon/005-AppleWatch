@@ -1,0 +1,300 @@
+:root {
+    --main-foont:"Roboto", "Arial", "sans serif";
+    --color-bc-link:#EA625C;
+    --color:#fff ;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    font-family: var(--main-foont);
+}
+
+.container {
+    width: 100%;
+    max-width: 1040px;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header {
+    padding-top: 30px;
+}
+
+.sitenav-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 79px;
+}
+
+.sitenav-logo {
+    width: 35px;
+    height: 41px;
+    display: flex;
+    margin-right: 502px;
+}
+
+.sitenav-title-link-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sitenav-link {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.sitenav-list-input {
+    margin-left: 40px;
+    font-size: 15px;
+    color: #666;
+}
+
+.sitenav-list-input-style {
+    padding: 0;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+
+.sitenav-list-input-style:focus {
+    outline: none;
+    box-shadow: rgba(161, 3, 82, 0.1) 0px 0px 16px;
+}
+
+.class {
+    margin-right: 0;
+}
+
+.sitenavs-search-button {
+    font-size: 15px;
+    line-height: 22.5px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    outline: none;
+    padding-bottom: 6px;
+    color: #666666;
+}
+
+.first-section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/watches.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.first-section-information {
+    width: 490px;
+    margin-top: 91px;
+    margin-bottom: 185px;
+    margin-right: 245px;
+    padding-left: 125px;
+}
+
+.container-add {
+    width: 1310px;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main-content {
+    flex-grow: 1;
+}
+.first-section-heading {
+    font-family:var(--main-foont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 0;
+}
+
+.main-link {
+    padding: 12px 38px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--color);
+    text-decoration: none;
+    display: inline-block;
+    background-color:var(--color-bc-link);
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.first-section-text {
+    width: 450px;
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.third-section-heading {
+    width: 380px;
+}
+
+.second-section-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.second-section-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section-data {
+    width: 288px;
+}
+
+.pink-data {
+display: flex;
+align-items: center;
+}
+
+.pink-line-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-bc-link);
+    
+}
+
+.pink-line {
+    border: none;
+width: 40px;
+height: 2px;
+background-color: var(--color-bc-link);
+margin: 0;
+margin-right: 10px;
+}
+
+.second-section-data:not(:last-child) {
+    margin-right: 80px;
+}
+
+.second-section-data-heading {
+    font-family:var(--main-foont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222222;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.second-section-data-text {
+    color: #333333;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.info-link {
+    padding: 12px 90px;
+}
+.second-section-data-link {
+    background-color: #dddddd;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+}
+
+.site-footer-data {
+    width: 490px;
+    margin-left: auto;
+}
+.info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.site-footer {
+    background-image: url("../img/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-footer-container {
+    padding-top: 240px;
+    padding-bottom: 239px;
+}
+
+.site-footer-link {
+    padding: 12px 46px;
+}
+
+.site-footer-heading {
+    width: 490px;
+    color: #FFFFFF;
+}
+
+.site-footer-text {
+    color:var(--color);
+    border-left: 3px solid var(--color);
+}
+
+.info-text-wrapper {
+    padding: 0;
+    margin: 0;
+    margin-right: 110px;
+}
+
+
+
